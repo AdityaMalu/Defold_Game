@@ -1,0 +1,831 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/main.collectionc", "/main/custom.renderc", "/main/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "a458a7c030b984ca9b8898e3bcd81c4e40730204",
+  "children" : [ "/_generated_ef4bdc9a3649db96.goc", "/_generated_44d18c3e8f8802c4.goc" ]
+}, {
+  "path" : "/_generated_ef4bdc9a3649db96.goc",
+  "hexDigest" : "54590cf30b0f5b8019d16f42add0156e787a008d",
+  "children" : [ "/main/handler.scriptc", "/_generated_13303b58aa2d7fd0.collectionproxyc", "/_generated_3f5bda958a47b3e7.collectionproxyc" ]
+}, {
+  "path" : "/main/handler.scriptc",
+  "hexDigest" : "f30d81472fbf4027f93ee4f33075cc690d4f79a1",
+  "children" : [ "/main/data.luac", "/main/lock.luac" ]
+}, {
+  "path" : "/main/data.luac",
+  "hexDigest" : "32feb4461056cde95ae60c7fcbba26077c221e73",
+  "children" : [ ]
+}, {
+  "path" : "/main/lock.luac",
+  "hexDigest" : "65fab9d859cb3c12b291204a84c61f234d9b13a6",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_13303b58aa2d7fd0.collectionproxyc",
+  "hexDigest" : "8d125c62153ca5847662be304816d9e2e5dc6a6d",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/game/core/game.collectionc" ]
+}, {
+  "path" : "/game/core/game.collectionc",
+  "hexDigest" : "42e7fd72da9dc6a74e9d384c04f2cc67d2cfb3e2",
+  "children" : [ "/game/player/player.goc", "/_generated_b95e67813a32d06a.goc", "/_generated_9d4fd599b04b51cd.goc", "/_generated_898389d0c4bf8ff9.goc", "/_generated_ac345a221e42180f.goc", "/_generated_7b590d022bb0ecf6.goc" ]
+}, {
+  "path" : "/game/player/player.goc",
+  "hexDigest" : "23c26043f80787504df7c052f0d126d30e69962a",
+  "children" : [ "/game/player/player.scriptc", "/game/player/exp-player.particlefxc", "/_generated_797b6dcf484cfbfb.spritec", "/_generated_f0528f11708f1627.collisionobjectc", "/_generated_89d1171fb17b02ce.factoryc", "/_generated_c3085c67bfad77ad.spritec", "/_generated_c3085c67bfad77ad.spritec" ]
+}, {
+  "path" : "/game/player/player.scriptc",
+  "hexDigest" : "169341cfd4d07946e8b0a013a624d72ae8708d5b",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/enemy/enemy.luac",
+  "hexDigest" : "ea94751cef3424dc2abbb75341fbf79eac8f4062",
+  "children" : [ ]
+}, {
+  "path" : "/game/player/exp-player.particlefxc",
+  "hexDigest" : "f57e9bd0fff356fc67d344d265b21d8f2a15066f",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/game/effects/pixel.t.texturesetc",
+  "hexDigest" : "a8f381af444476cc37d085ad4c44e05389e19899",
+  "children" : [ "/game/effects/game/effects/__pixel_tilesource.texturec" ]
+}, {
+  "path" : "/game/effects/game/effects/__pixel_tilesource.texturec",
+  "hexDigest" : "b8a7fdd7f9b17d4530697c1d93f0532f9e79ba88",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/particlefx.materialc",
+  "hexDigest" : "c1c548ad4954cdaa5378282f6f7fe6c7ca0e6b1e",
+  "children" : [ "/builtins/materials/particlefx.vpc", "/builtins/materials/particlefx.fpc" ]
+}, {
+  "path" : "/builtins/materials/particlefx.vpc",
+  "hexDigest" : "4e1a3f7e80cef823cc9552a904dfba6ad85901b1",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/particlefx.fpc",
+  "hexDigest" : "1fec983332bb5ddbde11c829d90e534d0a6540b0",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_797b6dcf484cfbfb.spritec",
+  "hexDigest" : "169701c8ed25397555528c53331ea30c7fa80f61",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/builtins/materials/sprite.materialc",
+  "hexDigest" : "f5df0b3fa81237df4d3e54ee3d8c9b23d84516fb",
+  "children" : [ "/builtins/materials/sprite.vpc", "/builtins/materials/sprite.fpc" ]
+}, {
+  "path" : "/builtins/materials/sprite.vpc",
+  "hexDigest" : "fc695c1d339c2e18109e3968276b15e8598b4b75",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/sprite.fpc",
+  "hexDigest" : "b87174614371c37b73a9e1cf006af845548673f7",
+  "children" : [ ]
+}, {
+  "path" : "/game/core/game.t.texturesetc",
+  "hexDigest" : "ee92e05cc6cda9d9e09f25149e031bcfbae49a02",
+  "children" : [ "/game/core/game/core/__game_tilesource.texturec" ]
+}, {
+  "path" : "/game/core/game/core/__game_tilesource.texturec",
+  "hexDigest" : "5840abb1188356782408703680f4fb10539950b7",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_f0528f11708f1627.collisionobjectc",
+  "hexDigest" : "97c3491c2f0001a8aa995fa5324a25dc09ea5af2",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_89d1171fb17b02ce.factoryc",
+  "hexDigest" : "2f6fdd10c2b28dac79357c92266477f83044bdfb",
+  "children" : [ "/game/player/laser.goc" ]
+}, {
+  "path" : "/game/player/laser.goc",
+  "hexDigest" : "877830e1af26a29273981560cd1ea02376e9621d",
+  "children" : [ "/game/player/laser.scriptc", "/_generated_e1e3a4d88e5f0b67.spritec", "/_generated_84ddbcdc66fc9fd5.collisionobjectc" ]
+}, {
+  "path" : "/game/player/laser.scriptc",
+  "hexDigest" : "5d80fc003d818c97062b3cda3d269ef53377f62a",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/_generated_e1e3a4d88e5f0b67.spritec",
+  "hexDigest" : "c5e4201ac51c7b421a5c626b4304d544e3009819",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/player/laser.t.texturesetc" ]
+}, {
+  "path" : "/game/player/laser.t.texturesetc",
+  "hexDigest" : "a959dca8042d41e0d0ee725d726760612730556f",
+  "children" : [ "/game/player/game/player/__laser_tilesource.texturec" ]
+}, {
+  "path" : "/game/player/game/player/__laser_tilesource.texturec",
+  "hexDigest" : "f006a4aca08ed9602bee6c46d596d2efe841d390",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_84ddbcdc66fc9fd5.collisionobjectc",
+  "hexDigest" : "0c68cfed9ba1ede1cf35b7fea6b41af8977647a0",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_c3085c67bfad77ad.spritec",
+  "hexDigest" : "22ff63c231ef96f66cb89248bacd297068666b4e",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_b95e67813a32d06a.goc",
+  "hexDigest" : "cd57b1e3496e6ce79596ad656b33657b4f1f2cff",
+  "children" : [ "/game/gui/clear.guic", "/game/gui/game.guic", "/game/gui/gameover.guic", "/game/gui/pause.guic", "/game/core/camera.scriptc", "/game/gui/shutter.guic", "/_generated_a8e2b17ba0cf0a40.spritec", "/_generated_8b04f0ba4ac58f9d.collisionobjectc", "/_generated_6b6676c6d768a586.camerac" ]
+}, {
+  "path" : "/game/gui/clear.guic",
+  "hexDigest" : "7ef2df46021e35a6d75eef8e7dedd333aaba0408",
+  "children" : [ "/game/gui/clear.gui_scriptc", "/assets/font/main.fontc", "/game/core/game.t.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/game/gui/clear.gui_scriptc",
+  "hexDigest" : "209bb49bf140ff57f0157b356e8c23325c36ef1b",
+  "children" : [ "/main/data.luac", "/main/ui.luac" ]
+}, {
+  "path" : "/main/ui.luac",
+  "hexDigest" : "23e3d305ef1076c4a724c21c870744f1fd93d0ce",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/assets/font/main.fontc",
+  "hexDigest" : "42974a504b509cac4aad023dc98e67e1f1d33422",
+  "children" : [ "/_generated_89c820da2e096680.glyph_bankc", "/builtins/fonts/font.materialc" ]
+}, {
+  "path" : "/_generated_89c820da2e096680.glyph_bankc",
+  "hexDigest" : "7862812ad58526a225ec100017b88ff46b3c0f03",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.materialc",
+  "hexDigest" : "56cbd377b78f9564763a95f5aea38157db56bf40",
+  "children" : [ "/builtins/fonts/font.vpc", "/builtins/fonts/font.fpc" ]
+}, {
+  "path" : "/builtins/fonts/font.vpc",
+  "hexDigest" : "8bece54956c0b081ab6ad71a5ab491c8c90e4efd",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/fonts/font.fpc",
+  "hexDigest" : "959ca6af4eb8271abe8359a072d89369f0e264cf",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "74e565f59394f8055ea41c94278100e0d10b03c1",
+  "children" : [ "/builtins/materials/gui.vpc", "/builtins/materials/gui.fpc" ]
+}, {
+  "path" : "/builtins/materials/gui.vpc",
+  "hexDigest" : "012d7117f0b1818e8bebe64a81edbb3d014bd2d9",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.fpc",
+  "hexDigest" : "ea97733ed497d884c219f8b1574efed644362a64",
+  "children" : [ ]
+}, {
+  "path" : "/game/gui/game.guic",
+  "hexDigest" : "f68981781bc1bd1be32f5a7ba4bbc54ace4f1e36",
+  "children" : [ "/game/gui/game.gui_scriptc", "/assets/font/main.fontc", "/main/main.a.texturesetc", "/game/core/game.t.texturesetc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/game/gui/game.gui_scriptc",
+  "hexDigest" : "d4d4280a701c69fa03ff5488269ddd7641828d97",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/main/main.a.texturesetc",
+  "hexDigest" : "df0967400df3890515f1b92acf01141292b20f44",
+  "children" : [ "/main/main.texturec" ]
+}, {
+  "path" : "/main/main.texturec",
+  "hexDigest" : "dd9caa0548a348bcb3ddaf8a62d979483bf8e140",
+  "children" : [ ]
+}, {
+  "path" : "/game/gui/gameover.guic",
+  "hexDigest" : "9a73dc2676cfc31c37bb73b027d2c39a07fda2af",
+  "children" : [ "/game/gui/gameover.gui_scriptc", "/assets/font/main.fontc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/game/gui/gameover.gui_scriptc",
+  "hexDigest" : "3022f69edd625a62213738212e0951e6803ccfbb",
+  "children" : [ "/main/data.luac", "/main/ui.luac" ]
+}, {
+  "path" : "/game/gui/pause.guic",
+  "hexDigest" : "62f66d517539a4b56e7179810a6644e478d4a0b9",
+  "children" : [ "/game/gui/pause.gui_scriptc", "/assets/font/main.fontc", "/game/core/game.t.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/game/gui/pause.gui_scriptc",
+  "hexDigest" : "84489b3a1915d576cd0554a371fad064c1ed71aa",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/game/core/camera.scriptc",
+  "hexDigest" : "d743e26c147cd2d31fead09a7b86de7ee147b7b3",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/game/gui/shutter.guic",
+  "hexDigest" : "1eef95a4087b411f64ec170e5dd79284147d00d5",
+  "children" : [ "/game/gui/shutter.gui_scriptc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/game/gui/shutter.gui_scriptc",
+  "hexDigest" : "80f18373336d0ec642f2950994aea9f959e421fd",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/_generated_a8e2b17ba0cf0a40.spritec",
+  "hexDigest" : "65eb7da3f379418defadf6f1b71a2ecfdf7bce49",
+  "children" : [ "/builtins/materials/sprite.materialc", "/main/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_8b04f0ba4ac58f9d.collisionobjectc",
+  "hexDigest" : "5c97fa440df0e780a5f0319fdb57836062e0518a",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_6b6676c6d768a586.camerac",
+  "hexDigest" : "23cda476bcceb3078d1ea1827ed78fb0fd0b6c58",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_9d4fd599b04b51cd.goc",
+  "hexDigest" : "f037a042604911cfbe5422ce26309c8d7e668818",
+  "children" : [ "/game/levels/level.scriptc", "/_generated_fc7342a984cd4963.factoryc", "/_generated_8292e896587c4bc7.factoryc", "/_generated_b1d811315a917458.factoryc", "/_generated_669c346918e3917b.factoryc", "/_generated_11f300c0432f7d27.factoryc", "/_generated_6ef916500987b3fd.factoryc", "/_generated_505ad5249a05154f.factoryc", "/_generated_27c85525f24e23b0.factoryc", "/_generated_5b6fa2d592258fed.factoryc", "/_generated_b2db36ea22aa91ea.factoryc" ]
+}, {
+  "path" : "/game/levels/level.scriptc",
+  "hexDigest" : "9a5cd4fb86549283cf6b6bb9b789099e7c3fd56d",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/_generated_fc7342a984cd4963.factoryc",
+  "hexDigest" : "b2f7fe1d9cc25f44b8b107eb038213024f8091c4",
+  "children" : [ "/game/enemy/lander.goc" ]
+}, {
+  "path" : "/game/enemy/lander.goc",
+  "hexDigest" : "b0c2e04fd601675f0204422e8ff6d8c0195c8e0c",
+  "children" : [ "/game/enemy/lander.scriptc", "/game/effects/exp-lander.particlefxc", "/game/effects/exp-lander-warp.particlefxc", "/_generated_36e2e6599c6c231b.spritec", "/_generated_3e8747c79c941893.collisionobjectc", "/_generated_8292e896587c4bc7.factoryc" ]
+}, {
+  "path" : "/game/enemy/lander.scriptc",
+  "hexDigest" : "23284a4547aae164d680c1dd311a7aa30ea9daa3",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-lander.particlefxc",
+  "hexDigest" : "a75d8b2dc5630a8e473f13ba954d0cd3895da0a3",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/game/effects/exp-lander-warp.particlefxc",
+  "hexDigest" : "039ba472b42f4a17fbab418342858d9f96224eb1",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_36e2e6599c6c231b.spritec",
+  "hexDigest" : "37f9c3e7f53b9ee15812241868365b6dc4039451",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_3e8747c79c941893.collisionobjectc",
+  "hexDigest" : "7b8246319478df395980096f0fde7176f6293419",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_8292e896587c4bc7.factoryc",
+  "hexDigest" : "1f3a64d0cd2b3758d4971e1ab337f4d4fcd1411c",
+  "children" : [ "/game/enemy/mutant.goc" ]
+}, {
+  "path" : "/game/enemy/mutant.goc",
+  "hexDigest" : "0c962a5075a9ff27dd5d1bcbdc6fcbe34431cae5",
+  "children" : [ "/game/enemy/mutant.scriptc", "/game/effects/exp-mutant.particlefxc", "/_generated_9879156e072a963.collisionobjectc", "/_generated_da00e6be8503689d.factoryc", "/_generated_c44c335c6987021f.factoryc" ]
+}, {
+  "path" : "/game/enemy/mutant.scriptc",
+  "hexDigest" : "3d6d79fcb38c249a4f1572411fbddd0190ab56fc",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-mutant.particlefxc",
+  "hexDigest" : "995a3287d9da7fa384c88cc053467c5e4b9e0461",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_9879156e072a963.collisionobjectc",
+  "hexDigest" : "9c8589c8cb2bc7d58d0878f196a007306f5c20b0",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_da00e6be8503689d.factoryc",
+  "hexDigest" : "b69775fb44a50b6a86145bd26bb49793783d2170",
+  "children" : [ "/game/enemy/shot.goc" ]
+}, {
+  "path" : "/game/enemy/shot.goc",
+  "hexDigest" : "17ad5c32446149209f4e81f66b9c39bfd7a8b5f9",
+  "children" : [ "/game/enemy/shot.scriptc", "/_generated_7a5e898a73ea6102.spritec", "/_generated_d60d7df513a6c43.collisionobjectc" ]
+}, {
+  "path" : "/game/enemy/shot.scriptc",
+  "hexDigest" : "66a37e057920b0cd2d8ce61da430c07a85e89958",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/_generated_7a5e898a73ea6102.spritec",
+  "hexDigest" : "619c318ea75a12d1c1b49fd3fd727d7c2fb11744",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_d60d7df513a6c43.collisionobjectc",
+  "hexDigest" : "2b42e4d900a42bb7a078a1b92723eaa9aebf11b7",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_c44c335c6987021f.factoryc",
+  "hexDigest" : "2622482a48852b9c85f452a53f8614451b4eb5d1",
+  "children" : [ "/game/enemy/mutant-b.goc" ]
+}, {
+  "path" : "/game/enemy/mutant-b.goc",
+  "hexDigest" : "f2de17b9a6b6b965ed9a0d082c33ebc3440387cc",
+  "children" : [ "/_generated_d0a1c0f7646172ec.spritec" ]
+}, {
+  "path" : "/_generated_d0a1c0f7646172ec.spritec",
+  "hexDigest" : "4965de68475b1ec3100bf4318f54f94e46675fb4",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_b1d811315a917458.factoryc",
+  "hexDigest" : "270c01d0825d0be98516fe381a8650a66fab3d7c",
+  "children" : [ "/game/enemy/baiter.goc" ]
+}, {
+  "path" : "/game/enemy/baiter.goc",
+  "hexDigest" : "1f73ab1598f11847ddf490c43d66ebc4c15ecbd3",
+  "children" : [ "/game/enemy/baiter.scriptc", "/game/effects/exp-baiter.particlefxc", "/_generated_9767e001a006e874.spritec", "/_generated_46f0fb64c9f5fd81.collisionobjectc", "/_generated_da00e6be8503689d.factoryc" ]
+}, {
+  "path" : "/game/enemy/baiter.scriptc",
+  "hexDigest" : "0111e497185f9d362a9cebff453b33072a0321a2",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-baiter.particlefxc",
+  "hexDigest" : "9fa5ccfc3f2cd1e53fb76efb56285f896d175591",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_9767e001a006e874.spritec",
+  "hexDigest" : "29dccdbc81a73ec06f4e20486ca485cb4662ffb2",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_46f0fb64c9f5fd81.collisionobjectc",
+  "hexDigest" : "7d2a0bb9620091f89582b4cc1cc129c3a72e6b4c",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_669c346918e3917b.factoryc",
+  "hexDigest" : "a7abfe858614e7d36daba8d097c546be251e4321",
+  "children" : [ "/game/enemy/bomber.goc" ]
+}, {
+  "path" : "/game/enemy/bomber.goc",
+  "hexDigest" : "e3bb850421438ae8e5e9d07e29046ea2ac13e245",
+  "children" : [ "/game/enemy/bomber.scriptc", "/game/effects/exp-bomber.particlefxc", "/_generated_317d01177599c978.spritec", "/_generated_b344caa92146b3ec.collisionobjectc", "/_generated_e4d8a8f3dd9e80b.factoryc" ]
+}, {
+  "path" : "/game/enemy/bomber.scriptc",
+  "hexDigest" : "48bc82254c7e069a2175890ca556f4a7de73b279",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-bomber.particlefxc",
+  "hexDigest" : "dfc73f0715d6b400d3bd4e8a964e5b6439291f71",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_317d01177599c978.spritec",
+  "hexDigest" : "9d8baf2f30781891e66c78f70e2360be7315edef",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_b344caa92146b3ec.collisionobjectc",
+  "hexDigest" : "6dd3a590c9f51d264dc11780c8f5c1ed991d8d0e",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_e4d8a8f3dd9e80b.factoryc",
+  "hexDigest" : "ac1da859db6c24994b02a995e56540d803d32e2f",
+  "children" : [ "/game/enemy/bomb.goc" ]
+}, {
+  "path" : "/game/enemy/bomb.goc",
+  "hexDigest" : "3d7e36e2423d32d6b4ab17c7ad516b4dbd5c85b5",
+  "children" : [ "/game/enemy/bomb.scriptc", "/_generated_63c9113816892041.spritec", "/_generated_d60d7df513a6c43.collisionobjectc" ]
+}, {
+  "path" : "/game/enemy/bomb.scriptc",
+  "hexDigest" : "976cbe0362c27531c4fbe977c2da0a71f44672f2",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_63c9113816892041.spritec",
+  "hexDigest" : "a6c61d0fb421a7c79e292133e4c8be5d2beccc3e",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_11f300c0432f7d27.factoryc",
+  "hexDigest" : "886e0876bee5b5b2ce9eabe8895d19fe42cd2f41",
+  "children" : [ "/game/enemy/pod.goc" ]
+}, {
+  "path" : "/game/enemy/pod.goc",
+  "hexDigest" : "75091fb4b9ca02275161b716d18b7525f0ba88e4",
+  "children" : [ "/game/enemy/pod.scriptc", "/game/effects/exp-pod.particlefxc", "/_generated_6ec6a501c0d57ba1.spritec", "/_generated_8e17b142211a818c.collisionobjectc", "/_generated_7f7660d749018247.factoryc" ]
+}, {
+  "path" : "/game/enemy/pod.scriptc",
+  "hexDigest" : "ed38f0bb681b8951cc00fdb14d210e5bc5159136",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-pod.particlefxc",
+  "hexDigest" : "b48e2759c8875c14c7c6dc8299a0cbdc502d2a86",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_6ec6a501c0d57ba1.spritec",
+  "hexDigest" : "a6463d901cdaae11f512e269785e6cc40e4990e4",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_8e17b142211a818c.collisionobjectc",
+  "hexDigest" : "bbd23fb3d7f2c072cd6c0f1283cf25a31292781d",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_7f7660d749018247.factoryc",
+  "hexDigest" : "285240035dc7d9e95d317d48d8cd967d71e0e255",
+  "children" : [ "/game/enemy/swarmer.goc" ]
+}, {
+  "path" : "/game/enemy/swarmer.goc",
+  "hexDigest" : "7816b1d21ba960d2d3fef2928eae09ce968cba5c",
+  "children" : [ "/game/enemy/swarmer.scriptc", "/game/effects/exp-swarmer.particlefxc", "/_generated_7509fcfa7b94ba1e.spritec", "/_generated_9ed115a5c387f7a4.collisionobjectc", "/_generated_da00e6be8503689d.factoryc" ]
+}, {
+  "path" : "/game/enemy/swarmer.scriptc",
+  "hexDigest" : "8c7b79e09600d37586e4ca3d9043159a98f5e317",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-swarmer.particlefxc",
+  "hexDigest" : "d89b8383568d0b4b829204739ce59fa7afa93f7d",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_7509fcfa7b94ba1e.spritec",
+  "hexDigest" : "0001a73944625e391e52c67ce3f3210db532571d",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_9ed115a5c387f7a4.collisionobjectc",
+  "hexDigest" : "58c9410342ec42783c8caec58a1045be73662403",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_6ef916500987b3fd.factoryc",
+  "hexDigest" : "dddaf27db3bd34d6cfc31a80a2ebd767db668ad9",
+  "children" : [ "/game/object/man.goc" ]
+}, {
+  "path" : "/game/object/man.goc",
+  "hexDigest" : "082b4bc92a768ba29c6032e9b9d7499984b2329a",
+  "children" : [ "/game/object/man.scriptc", "/game/effects/exp-man.particlefxc", "/_generated_cac93f0995bf2fb1.collisionobjectc", "/_generated_9bd3b2ae123ec302.spritec", "/_generated_5d15431bf26c0daa.collisionobjectc", "/_generated_9b16e14647809050.factoryc" ]
+}, {
+  "path" : "/game/object/man.scriptc",
+  "hexDigest" : "f955d91c6589972052233c6ff84463fc66cc0661",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/game/effects/exp-man.particlefxc",
+  "hexDigest" : "ef895759391aa29d3b5168acd6fbc25b7a7ea72d",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_cac93f0995bf2fb1.collisionobjectc",
+  "hexDigest" : "3d941ea360da77bb634d7d91da159e473e793a8f",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_9bd3b2ae123ec302.spritec",
+  "hexDigest" : "936c53b83ce94fc01ef22b475a308e3a91dadea7",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_5d15431bf26c0daa.collisionobjectc",
+  "hexDigest" : "f9c383d08a2ac787cbc85421946c73397b3f690d",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_9b16e14647809050.factoryc",
+  "hexDigest" : "9caeffc86d7266bbd7f54c22da35b012c10044ec",
+  "children" : [ "/game/object/bonus.goc" ]
+}, {
+  "path" : "/game/object/bonus.goc",
+  "hexDigest" : "b5582cce5f4949d8b7e485a65654ec1c2978c460",
+  "children" : [ "/game/object/bonus.scriptc", "/_generated_6d5b195ca7b03972.spritec" ]
+}, {
+  "path" : "/game/object/bonus.scriptc",
+  "hexDigest" : "c1ee3d5b78210f2e8b731851667876e8ccbcd2ea",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/_generated_6d5b195ca7b03972.spritec",
+  "hexDigest" : "dc8c4ab61c40b7ea67e0b4f30f4f0c3a61347b9c",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_505ad5249a05154f.factoryc",
+  "hexDigest" : "37be9131625baa1fe50f8a3e5c0a8559874926cb",
+  "children" : [ "/game/enemy/spinner.goc" ]
+}, {
+  "path" : "/game/enemy/spinner.goc",
+  "hexDigest" : "381dd30b16bbf878e70ae7019df43d111bcf4dd8",
+  "children" : [ "/game/enemy/spinner.scriptc", "/game/effects/exp-spinner.particlefxc", "/_generated_191c992b9b045f70.spritec", "/_generated_ed35aa7ea022cd32.collisionobjectc", "/_generated_da00e6be8503689d.factoryc" ]
+}, {
+  "path" : "/game/enemy/spinner.scriptc",
+  "hexDigest" : "f0e0c247abd52a13c90386a4f2e965bf457cb054",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-spinner.particlefxc",
+  "hexDigest" : "93e84f3813ba8198fe0b85ac89c00b06f97af29a",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_191c992b9b045f70.spritec",
+  "hexDigest" : "6e7d31a213c0111cd01beef89fb9023bce47b5e4",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_ed35aa7ea022cd32.collisionobjectc",
+  "hexDigest" : "3ca2019bd1575d8ff6375ac63a88bf772a87906a",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_27c85525f24e23b0.factoryc",
+  "hexDigest" : "60ffe63956be825e6cf487926dbfdd23ef0cbb47",
+  "children" : [ "/game/enemy/ufo.goc" ]
+}, {
+  "path" : "/game/enemy/ufo.goc",
+  "hexDigest" : "600ba43ed2bedb2ce55ef819b505f979db79e796",
+  "children" : [ "/game/enemy/ufo.scriptc", "/game/effects/exp-ufo.particlefxc", "/_generated_3945fb3b553ab540.spritec", "/_generated_2776992865b2bf06.collisionobjectc", "/_generated_da00e6be8503689d.factoryc" ]
+}, {
+  "path" : "/game/enemy/ufo.scriptc",
+  "hexDigest" : "f0ab68e800a3b9d273c46a283b02c96b8ed44d41",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-ufo.particlefxc",
+  "hexDigest" : "1434b3f5a5e48ab0a25d25ffc63e9202d7b883ac",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_3945fb3b553ab540.spritec",
+  "hexDigest" : "2dcfe782751d53d14f98080fa9e38fc497da92a0",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_2776992865b2bf06.collisionobjectc",
+  "hexDigest" : "9c520f277dd4afc91a90932ce9905f397ebc1f12",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_5b6fa2d592258fed.factoryc",
+  "hexDigest" : "05defae3eff2653e2cb798fa067b8bd47665b138",
+  "children" : [ "/game/enemy/dynamo.goc" ]
+}, {
+  "path" : "/game/enemy/dynamo.goc",
+  "hexDigest" : "1d24ebbb557c4fda64c9a974abd9dbe2e13d4172",
+  "children" : [ "/game/enemy/dynamo.scriptc", "/game/effects/exp-dynamo.particlefxc", "/_generated_59bfd2c2d2179b49.spritec", "/_generated_2776992865b2bf06.collisionobjectc", "/_generated_da00e6be8503689d.factoryc" ]
+}, {
+  "path" : "/game/enemy/dynamo.scriptc",
+  "hexDigest" : "2db650d3c93b895ab8e43d1ed36ba6c1a2f4aff9",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-dynamo.particlefxc",
+  "hexDigest" : "b48e2759c8875c14c7c6dc8299a0cbdc502d2a86",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_59bfd2c2d2179b49.spritec",
+  "hexDigest" : "4478b461aa38308b10d9efd892711dc8865f7218",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_b2db36ea22aa91ea.factoryc",
+  "hexDigest" : "b42d8728910c8e4e8220dfc6b5d68adf1855fe74",
+  "children" : [ "/game/enemy/guppy.goc" ]
+}, {
+  "path" : "/game/enemy/guppy.goc",
+  "hexDigest" : "fd1138e1056b8b6f302ca827c651054a7cdc98ed",
+  "children" : [ "/game/enemy/guppy.scriptc", "/game/effects/exp-guppy.particlefxc", "/_generated_c72df03319ce73ef.spritec", "/_generated_ca07d74cfa0ddc29.collisionobjectc", "/_generated_da00e6be8503689d.factoryc" ]
+}, {
+  "path" : "/game/enemy/guppy.scriptc",
+  "hexDigest" : "632ffe12a0d113cdee39b9b874f1dfadb34fe63b",
+  "children" : [ "/main/data.luac", "/game/enemy/enemy.luac" ]
+}, {
+  "path" : "/game/effects/exp-guppy.particlefxc",
+  "hexDigest" : "0159b56219a059786207ca3a225b22d034fc9241",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc", "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/_generated_c72df03319ce73ef.spritec",
+  "hexDigest" : "cc96253487736fc147c3d31db1eb37fc9bcd20cd",
+  "children" : [ "/builtins/materials/sprite.materialc", "/game/core/game.t.texturesetc" ]
+}, {
+  "path" : "/_generated_ca07d74cfa0ddc29.collisionobjectc",
+  "hexDigest" : "85dede354040e5703ceebdc5c1869048f0dbf6eb",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_898389d0c4bf8ff9.goc",
+  "hexDigest" : "a5b3bf77f0ec7f6e08e370e40f4d5bd594c601ef",
+  "children" : [ "/game/levels/bg.scriptc", "/_generated_cdc25334b2a17a69.spritec", "/_generated_cdc25334b2a17a69.spritec" ]
+}, {
+  "path" : "/game/levels/bg.scriptc",
+  "hexDigest" : "407dca9d05b77c03a3dc2d64de00305cadb022b6",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/_generated_cdc25334b2a17a69.spritec",
+  "hexDigest" : "b058b2ef0b7b305488ede58517968b56ac014b8a",
+  "children" : [ "/builtins/materials/sprite.materialc", "/main/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_ac345a221e42180f.goc",
+  "hexDigest" : "87a90c3d067d2949c3403a8a918e1db3316c91ee",
+  "children" : [ "/game/levels/bg.scriptc", "/_generated_ba20d90c9fdfec6b.spritec", "/_generated_ba20d90c9fdfec6b.spritec" ]
+}, {
+  "path" : "/_generated_ba20d90c9fdfec6b.spritec",
+  "hexDigest" : "42f7cc042f4198402b4477edddf45b6fbe149315",
+  "children" : [ "/builtins/materials/sprite.materialc", "/main/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_7b590d022bb0ecf6.goc",
+  "hexDigest" : "677ffd3368e2ce55c45e8b30c80b3168b9440ee3",
+  "children" : [ "/game/levels/bg.scriptc", "/_generated_7142533a50013432.spritec", "/_generated_7142533a50013432.spritec" ]
+}, {
+  "path" : "/_generated_7142533a50013432.spritec",
+  "hexDigest" : "a62cb0fd98801c35534406bfb1a531493a50ca83",
+  "children" : [ "/builtins/materials/sprite.materialc", "/main/main.a.texturesetc" ]
+}, {
+  "path" : "/_generated_3f5bda958a47b3e7.collectionproxyc",
+  "hexDigest" : "f966cf4cfa485b4aad9fb2db42401db30a74e416",
+  "nodeType" : "CollectionProxy",
+  "children" : [ "/menu/menu.collectionc" ]
+}, {
+  "path" : "/menu/menu.collectionc",
+  "hexDigest" : "c938d02997442cce0b9402ef24a405422810ad96",
+  "children" : [ "/_generated_f84e4c5fc473770d.goc" ]
+}, {
+  "path" : "/_generated_f84e4c5fc473770d.goc",
+  "hexDigest" : "eb6115bccce7a88cd1de69d9eb65cc808997cf91",
+  "children" : [ "/menu/bg.guic", "/menu/controls.guic", "/menu/menu.guic", "/menu/scoring.guic" ]
+}, {
+  "path" : "/menu/bg.guic",
+  "hexDigest" : "3b624be917bcb8dbd7ab6b1d169faee7511ef4e5",
+  "children" : [ "/menu/bg.gui_scriptc", "/main/main.a.texturesetc", "/builtins/materials/gui.materialc", "/menu/bg.particlefxc" ]
+}, {
+  "path" : "/menu/bg.gui_scriptc",
+  "hexDigest" : "c28bb11db22693fdd5089395c373d60eec508322",
+  "children" : [ ]
+}, {
+  "path" : "/menu/bg.particlefxc",
+  "hexDigest" : "a0d468c6c9d9f40fcfdc3b0458b946b22b5ee2e2",
+  "children" : [ "/game/effects/pixel.t.texturesetc", "/builtins/materials/particlefx.materialc" ]
+}, {
+  "path" : "/menu/controls.guic",
+  "hexDigest" : "95679cba72a769cfc079a24b883d3b6c9e253df1",
+  "children" : [ "/menu/controls.gui_scriptc", "/assets/font/main.fontc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/menu/controls.gui_scriptc",
+  "hexDigest" : "4561ca9f7fcd6d27ea5aa9d5146b17c91afd930a",
+  "children" : [ "/main/data.luac", "/main/ui.luac" ]
+}, {
+  "path" : "/menu/menu.guic",
+  "hexDigest" : "0ae495f87c7dcb2eef3386c086c1364482acd24c",
+  "children" : [ "/menu/menu.gui_scriptc", "/assets/font/main.fontc", "/main/main.a.texturesetc", "/game/core/game.t.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/menu/menu.gui_scriptc",
+  "hexDigest" : "8dd554d2f09b9c18f900ef70710552ba6c59f6c8",
+  "children" : [ "/main/data.luac", "/main/ui.luac" ]
+}, {
+  "path" : "/menu/scoring.guic",
+  "hexDigest" : "b6c2bf7a972f992c370ae095d8a73979d91c373e",
+  "children" : [ "/menu/scoring.gui_scriptc", "/assets/font/main.fontc", "/game/core/game.t.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/menu/scoring.gui_scriptc",
+  "hexDigest" : "948e59c238846cb186f36f0bfcea30666e9c0cea",
+  "children" : [ "/main/data.luac", "/main/ui.luac" ]
+}, {
+  "path" : "/_generated_44d18c3e8f8802c4.goc",
+  "hexDigest" : "c1322e36593ddf13d167d2f54d85ef6c49ba0502",
+  "children" : [ "/_generated_d7ad65086d502af1.soundc", "/_generated_4cf4c926642b2a75.soundc", "/_generated_94b0b7a216bc9420.soundc", "/_generated_5aa123989634edf6.soundc", "/_generated_9789777613940a39.soundc", "/_generated_6c482a59ff45f8e7.soundc", "/_generated_49bb01abf4cc1a5c.soundc", "/_generated_edc9c9aadec3d773.soundc", "/_generated_c1b926a79ac066e3.soundc", "/_generated_cc6ab13c78cf680e.soundc", "/_generated_a357f987428e8717.soundc", "/_generated_8288fbece6595821.soundc", "/_generated_bd8b40a8091fb613.soundc", "/_generated_2f50ce86d3d94ddb.soundc", "/_generated_829411999d973880.soundc", "/_generated_2b47add879227adb.soundc", "/_generated_aa639fcdd93ed1bb.soundc", "/_generated_628081751ac57bdc.soundc", "/_generated_fb7aef07fa670c25.soundc", "/_generated_c44496ea9125c797.soundc" ]
+}, {
+  "path" : "/_generated_d7ad65086d502af1.soundc",
+  "hexDigest" : "4f9d5cf96329dd9918a860568ca39a98238a16e5",
+  "children" : [ "/assets/ogg/laser.oggc" ]
+}, {
+  "path" : "/assets/ogg/laser.oggc",
+  "hexDigest" : "d2de4e1a8db364f4b4e1af4908401a3967ea60f0",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_4cf4c926642b2a75.soundc",
+  "hexDigest" : "a8606fc67cff822903df0f8e2ce6a17ab6cc2a10",
+  "children" : [ "/assets/ogg/shot.oggc" ]
+}, {
+  "path" : "/assets/ogg/shot.oggc",
+  "hexDigest" : "ed5f39b049b0eb699fbee395913946a50ff948c1",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_94b0b7a216bc9420.soundc",
+  "hexDigest" : "42ead9a90311b7f15308b74980f649f1480211a3",
+  "children" : [ "/assets/ogg/exp-low.oggc" ]
+}, {
+  "path" : "/assets/ogg/exp-low.oggc",
+  "hexDigest" : "855a958317ff6d0b54ae333dc336792a3dcb4d4f",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_5aa123989634edf6.soundc",
+  "hexDigest" : "f05a22956ff2ba3319947d98d090c22c6a4fedf8",
+  "children" : [ "/assets/ogg/exp-small.oggc" ]
+}, {
+  "path" : "/assets/ogg/exp-small.oggc",
+  "hexDigest" : "383e4b9256ae76ed66a3d14ea69de90ceaf9c47d",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_9789777613940a39.soundc",
+  "hexDigest" : "b9d3c1db945605d07735d785ecd50c504faeb1ef",
+  "children" : [ "/assets/ogg/exp-big.oggc" ]
+}, {
+  "path" : "/assets/ogg/exp-big.oggc",
+  "hexDigest" : "95860c843ec23bb36e42a8430317f60aaae949f0",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_6c482a59ff45f8e7.soundc",
+  "hexDigest" : "68042b471c750e857810d4fbbd25063149c3a8a0",
+  "children" : [ "/assets/ogg/exp-2.oggc" ]
+}, {
+  "path" : "/assets/ogg/exp-2.oggc",
+  "hexDigest" : "383ee97084ada7490dad008cce8a6c8f1613cb17",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_49bb01abf4cc1a5c.soundc",
+  "hexDigest" : "d2008923a0b6749f440a5023615e338a0e36df8f",
+  "children" : [ "/assets/ogg/exp-3.oggc" ]
+}, {
+  "path" : "/assets/ogg/exp-3.oggc",
+  "hexDigest" : "c64df3d0299648b719cf7891c64073893eaf236d",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_edc9c9aadec3d773.soundc",
+  "hexDigest" : "550bf76af7df98843ddefea3b4ef1e592faeab42",
+  "children" : [ "/assets/ogg/bonus.oggc" ]
+}, {
+  "path" : "/assets/ogg/bonus.oggc",
+  "hexDigest" : "24ed1a51f89e3014de8f0201e551f22af66a7b21",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_c1b926a79ac066e3.soundc",
+  "hexDigest" : "60010ec002bd97479ca0945796449cce756266a4",
+  "children" : [ "/assets/ogg/shot2.oggc" ]
+}, {
+  "path" : "/assets/ogg/shot2.oggc",
+  "hexDigest" : "856f0ef9875d895f454a83e914d851b174d198f5",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_cc6ab13c78cf680e.soundc",
+  "hexDigest" : "bc24d74b5b6e574f3eb8f3a3800a81e6c2dbde82",
+  "children" : [ "/assets/ogg/warp-in.oggc" ]
+}, {
+  "path" : "/assets/ogg/warp-in.oggc",
+  "hexDigest" : "01a9e84ea2a44c9f064b62f898822c812c176837",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_a357f987428e8717.soundc",
+  "hexDigest" : "2f77e567c337d925f57d1811dd5c928f156facb6",
+  "children" : [ "/assets/ogg/hyperspace.oggc" ]
+}, {
+  "path" : "/assets/ogg/hyperspace.oggc",
+  "hexDigest" : "3989e4c9703713aea633c9a1ba0df7a26ab76854",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_8288fbece6595821.soundc",
+  "hexDigest" : "b36afdeddec6379e15e26b718b5a8e339c56a791",
+  "children" : [ "/assets/ogg/smart.oggc" ]
+}, {
+  "path" : "/assets/ogg/smart.oggc",
+  "hexDigest" : "ce4ffab2cc3283569736da34c8adf6774dd5293d",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_bd8b40a8091fb613.soundc",
+  "hexDigest" : "9fbaafb33cf216594e38972f0d01866781a0220a",
+  "children" : [ "/assets/ogg/blip.oggc" ]
+}, {
+  "path" : "/assets/ogg/blip.oggc",
+  "hexDigest" : "745ec6e3e6b10df6d76243d72eaa6e18825be896",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_2f50ce86d3d94ddb.soundc",
+  "hexDigest" : "2c047ec3e6a3633771d0d4d884f31eb78176122c",
+  "children" : [ "/assets/ogg/extra.oggc" ]
+}, {
+  "path" : "/assets/ogg/extra.oggc",
+  "hexDigest" : "7d233391bd8685ce76add3b0d89cd3054677dafc",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_829411999d973880.soundc",
+  "hexDigest" : "3b2e9547dd65ffc902bcb410293843124edab22f",
+  "children" : [ "/assets/ogg/exp-4.oggc" ]
+}, {
+  "path" : "/assets/ogg/exp-4.oggc",
+  "hexDigest" : "5521a52602086ce6f91dabf95f630e739a0a56fd",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_2b47add879227adb.soundc",
+  "hexDigest" : "fa3a9e9c8003ee4ce61e7aa4c33b02869a59664b",
+  "children" : [ "/assets/ogg/mutant.oggc" ]
+}, {
+  "path" : "/assets/ogg/mutant.oggc",
+  "hexDigest" : "cebd8a3b24a7aa31341c7c2c215dd55583586c0e",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_aa639fcdd93ed1bb.soundc",
+  "hexDigest" : "7f42bb4032cceeffbe029e5bfabfb7f9b5b20ce4",
+  "children" : [ "/assets/ogg/swarmer.oggc" ]
+}, {
+  "path" : "/assets/ogg/swarmer.oggc",
+  "hexDigest" : "d8552465361f9888567c18b1d8d9f076d3c44f05",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_628081751ac57bdc.soundc",
+  "hexDigest" : "0cbb883687563c42d3aa483db48a141e25ea1cc9",
+  "children" : [ "/assets/ogg/start.oggc" ]
+}, {
+  "path" : "/assets/ogg/start.oggc",
+  "hexDigest" : "e100db0533cad0537c975e80aaca8dd081e179fc",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_fb7aef07fa670c25.soundc",
+  "hexDigest" : "5e2dd8830bcd7232ecff6fc0aa3f02c052ea74c9",
+  "children" : [ "/assets/ogg/capture.oggc" ]
+}, {
+  "path" : "/assets/ogg/capture.oggc",
+  "hexDigest" : "878cc8ff82fe06fee367ec1834ee8e00d2435c76",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_c44496ea9125c797.soundc",
+  "hexDigest" : "684d7217adbb7d5bec335eb3587f73caa1ef96c7",
+  "children" : [ "/assets/ogg/mutieland.oggc" ]
+}, {
+  "path" : "/assets/ogg/mutieland.oggc",
+  "hexDigest" : "9ddeda11818fd86c5312c8730bdb9d2c6f419702",
+  "children" : [ ]
+}, {
+  "path" : "/main/custom.renderc",
+  "hexDigest" : "6c5aba3fb65e89b6661769f4c7bb4ad591e584aa",
+  "children" : [ "/main/custom.render_scriptc" ]
+}, {
+  "path" : "/main/custom.render_scriptc",
+  "hexDigest" : "f19ca4b780bad17a3aeaa92d2ff515d4a6373b43",
+  "children" : [ "/main/data.luac" ]
+}, {
+  "path" : "/main/game.input_bindingc",
+  "hexDigest" : "0086701b03f1b0adcaaa250814922377fbd1c70c",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "f5f73201e504c5b6e30f734cd0760bcc36315557",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+} ]
